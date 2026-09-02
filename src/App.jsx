@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import MalayGame from './game/MalayGame'
 import Navbar        from './components/Navbar'
 import Hero          from './components/Hero'
 import Stats         from './components/Stats'
@@ -13,13 +14,14 @@ import Contact       from './components/Contact'
 import Footer        from './components/Footer'
 
 export default function App() {
+  const [gameOpen, setGameOpen] = useState(false)
   const [theme, setTheme] = useState(() => {
     if (typeof window !== 'undefined') {
       const savedTheme = localStorage.getItem('theme')
       if (savedTheme) return savedTheme
-      return 'dark' // default to dark
+      return 'light' // default to light mode
     }
-    return 'dark'
+    return 'light'
   })
 
   useEffect(() => {
@@ -38,7 +40,7 @@ export default function App() {
 
   return (
     <div>
-      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <Navbar theme={theme} toggleTheme={toggleTheme} onGameOpen={() => setGameOpen(true)} />
       <main>
         <Hero />
         <Stats />
@@ -52,6 +54,9 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+
+      {/* ── MALAY.EXE Easter Egg Game Overlay ── */}
+      {gameOpen && <MalayGame onClose={() => setGameOpen(false)} />}
     </div>
   )
 }

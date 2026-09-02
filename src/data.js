@@ -74,6 +74,7 @@ export const skills = {
     { name: "REST APIs", emoji: "⚡", color: "#6366F1", level: 88 },
   ],
   database: [
+    { name: "MySQL", emoji: "🐬", color: "#336791", level: 80 },
     { name: "PostgreSQL", emoji: "🐘", color: "#336791", level: 80 },
     { name: "MongoDB", emoji: "🍃", color: "#47A248", level: 78 },
     { name: "Supabase", emoji: "⚡", color: "#3ECF8E", level: 70 },
