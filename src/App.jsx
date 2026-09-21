@@ -9,7 +9,7 @@ import Projects      from './components/Projects'
 import Experience    from './components/Experience'
 import Education     from './components/Education'
 import Certifications from './components/Certifications'
-import Blog          from './components/Blog'
+//import Blog          from './components/Blog'
 import Contact       from './components/Contact'
 import Footer        from './components/Footer'
 
@@ -50,7 +50,7 @@ export default function App() {
         <Experience />
         <Education />
         <Certifications />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
       </main>
       <Footer />

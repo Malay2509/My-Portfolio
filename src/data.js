@@ -89,28 +89,28 @@ export const skills = {
 
 export const projects = [
   {
-    icon: "🛒",
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce app with real-time inventory, secure Stripe payments, JWT auth, and admin dashboard. Optimized PostgreSQL queries for sub-100ms responses.",
+    icon: "💼",
+    title: "Job Connect",
+    description: "Full-stack job portal app with real-time job listings, secure authentication, JWT auth, and admin dashboard. Optimized PostgreSQL queries for sub-100ms responses.",
     tags: ["React", "Node.js", "PostgreSQL", "Stripe", "Docker"],
     category: "fullstack",
     github: "https://github.com/malay-singh-bisht",
-    demo: "#",
+    demo: "https://job-connect-portal-eight.vercel.app/",
     featured: false,
   },
   {
     icon: "🔐",
-    title: "Auth Microservice",
+    title: "Machine Service Record System",
     description: "Production-grade authentication microservice with JWT + refresh tokens, OAuth2 (Google/GitHub), role-based access control, and rate limiting. Containerized with Docker.",
-    tags: ["Java", "Spring Boot", "PostgreSQL", "Docker", "OAuth2"],
-    category: "backend",
+    tags: ["Java", "Spring Boot", "PostgreSQL", "React"],
+    category: "FullStack",
     github: "https://github.com/malay-singh-bisht",
     demo: "#",
     featured: true,
   },
   {
     icon: "💬",
-    title: "Real-Time Chat App",
+    title: "DeCodedIQ",
     description: "Scalable real-time messaging with WebSocket (Socket.io), group chats, file sharing, and read receipts. Backed by MongoDB for flexible message storage.",
     tags: ["React", "Socket.io", "Node.js", "MongoDB"],
     category: "fullstack",
@@ -124,8 +124,19 @@ export const projects = [
     description: "Modern analytics dashboard with dynamic charts and real-time data. Built with React + TypeScript, integrated with Supabase for live backend data.",
     tags: ["React", "TypeScript", "Supabase", "Chart.js"],
     category: "frontend",
-    github: "https://github.com/malay-singh-bisht",
-    demo: "#",
+    github: "https://github.com/Malay2509/Impetus-Python-project",
+    demo: "https://github.com/Malay2509/Impetus-Python-project",
+    featured: false,
+  },
+
+    {
+    icon: "",
+    title: "Cloud- based Attendance Management System",
+    description: "Modern analytics dashboard with dynamic charts and real-time data. Built with React + TypeScript, integrated with Supabase for live backend data.",
+    tags: ["", "Firestore", "Firebase", "Chart.js"],
+    category: "Cloud+ Functions Google Firebase",
+    github: "https://github.com/Malay2509/Cloud-Based-Attendance-System-using-QR-code-and-Geo-Location",
+    demo: "https://cc-lab-project-attendance.web.app/",
     featured: false,
   },
 ];
@@ -133,10 +144,10 @@ export const projects = [
 export const experience = [
   {
     role: "Full-Stack Developer Intern",
-    company: "TechStartup Pvt. Ltd.",
+    company: "Ingenious IT Solutions Indore.",
     location: "Indore",
-    period: "Jun 2025 – Aug 2025",
-    current: true,
+    period: "Jan 2026 – Jul 2026",
+    current: false,
     bullets: [
       "Built RESTful APIs using Node.js & Express serving 10k+ daily active users",
       "Redesigned React.js frontend components, improving load time by 35%",
@@ -146,10 +157,10 @@ export const experience = [
     tags: ["React", "Node.js", "MongoDB", "Docker"],
   },
   {
-    role: "Backend Engineering Intern",
-    company: "Open Source Project",
-    location: "Remote",
-    period: "Jan 2025 – Apr 2025",
+    role: "Python Intern",
+    company: "Impetus",
+    location: "SGSITS, Indore",
+    period: " May 2024– Jul 2024",
     current: false,
     bullets: [
       "Contributed to Java Spring Boot microservice architecture",
@@ -180,8 +191,8 @@ export const education = [
 ];
 
 export const certifications = [
-  { name: "AWS Cloud Practitioner", issuer: "Amazon Web Services", year: "2025", ribbon: "AWS", link: "#" },
-  { name: "The Complete Node.js Developer", issuer: "Andrew Mead · Udemy", year: "2024", ribbon: "Udemy", link: "#" },
+  { name: "Java backend Development", issuer: "GFG", year: "2025", ribbon: "GFG", link: "https://drive.google.com/file/d/1HGV_OYjiwy5mzp6FN8CS8ybLmBEpTPNd/view" },
+  { name: "API Development with Node.js", issuer: "Andrew Mead · Udemy", year: "2024", ribbon: "Udemy", link: "#" },
   { name: "React — The Complete Guide", issuer: "Maximilian Schwarzmüller", year: "2024", ribbon: "Udemy", link: "#" },
   { name: "Spring Boot & Microservices", issuer: "Duke University · Coursera", year: "2025", ribbon: "Coursera", link: "#" },
   { name: "Docker & Kubernetes Masterclass", issuer: "TechWorld with Nana · Udemy", year: "2025", ribbon: "Udemy", link: "#" },

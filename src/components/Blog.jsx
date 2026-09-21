@@ -1,5 +1,6 @@
-import { blog } from '../data'
+//import { blog } from '../data'
 
+/*
 export default function Blog() {
   const getCatClass = (cat) => {
     const c = cat.toLowerCase()
@@ -11,14 +12,14 @@ export default function Blog() {
   return (
     <section id="blog" className="section blog-section">
       <div className="container">
-        {/* Header */}
+        {/ Header /}
         <div className="section-header">
           <span className="section-tag">Articles</span>
           <h2 className="section-title">Latest Blog Posts</h2>
           <p className="section-subtitle">Writing about system architecture, REST API design, backend performance, and dev practices.</p>
         </div>
 
-        {/* Grid layout */}
+        {/ Grid layout /}
         <div className="blog-grid">
           {blog.map((post, i) => (
             <article key={i} className="blog-card">
@@ -41,3 +42,4 @@ export default function Blog() {
     </section>
   )
 }
+  */
